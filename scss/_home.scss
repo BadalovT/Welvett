@@ -1,0 +1,262 @@
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+p{
+    margin-bottom:0;
+}
+ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.register-btn{
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #707070;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: $main-color;
+    font-family: "Avant Garde";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.61px;
+    padding: 10px 40px;
+    &:hover{
+        color: $main-color;
+        opacity: 1;
+        text-decoration: none;
+    }
+}
+
+header{
+    background-color: $main-color;
+    .logo{
+        img{
+            margin-top:40px;
+        }
+    }
+    .register{
+        .member-types{
+        margin-top: 134px;
+        margin-left: 50px;
+        .members{
+            width: 480px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .text{
+                color: #efefef;
+                font-family: "Avant Garde";
+                font-size: 36px;
+                font-weight: 400;
+                letter-spacing: 0.61px;
+                position: relative;
+                .info{
+                    position: absolute;
+                    top:    0;
+                    right: -40px;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+        }
+        .reg{
+            width: 100%;
+            text-align: center;
+            margin-top: 85px;
+        }
+        }
+    }
+    .img-side{
+        margin-top: 40px;
+        img{
+            float: right;
+            width: 680px;
+            margin-right:60px;
+            margin-bottom: 50px;
+
+        }
+        
+    }
+}
+.status-member{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    .header{
+        margin-bottom: 50px;
+        h1{
+            color: #1a1818;
+            font-family: "Avant Garde";
+            font-size: 70px;
+            font-weight: 700;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: -14px;
+                left: 0;
+                width: 171px;
+                height: 7px;
+                background-color: #581220;
+            }
+        }
+    }
+    .subject{
+        p{
+            color: #1a1818;
+            font-family: "Avant Garde";
+            font-size: 30px;
+            font-weight: 400;
+        }
+       
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .text-side{
+            margin-left: 90px;
+            position: relative;
+            p{
+                color: #000000;
+                font-family: Montserrat;
+                font-size: 27px;
+                font-weight: 400;
+            }
+            .arrow{
+                position: absolute;
+                right: -100px;
+                bottom: 0;
+                img{
+                    width: 65px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+
+.category{
+    background-color: $main-color;
+    .header{
+        text-align: center;
+        padding-top:20px;
+        h1{
+            color: #efefef;
+            font-family: "Avant Garde";
+            font-size: 60px;
+            font-weight: 700;
+        }
+    }
+    .carousel-wrap {
+        margin: 90px auto;
+        padding: 0 5%;
+        width: 90%;
+        position: relative;
+      }
+      
+      /* fix blank or flashing items on carousel */
+      
+      .owl-carousel .item {
+        position: relative;
+        z-index: 100;
+        -webkit-backface-visibility: hidden;
+        text-align: center;
+        img{
+            width: 196px;
+            height: 150px;  
+            margin: 0 auto;
+        }
+        p{
+            color: #efefef;
+            font-family: "Avant Garde";
+            font-size: 34px;
+            font-weight: 400;
+        }
+      }
+      
+      /* end fix */
+      
+      .owl-nav {
+        button {
+          margin-top: -52px;
+          position: absolute;
+          top: 50%;
+          color: #cdcbcd!important;
+          width: 39px;
+          height: 41px;
+          outline: none;
+        span{
+            display: none;
+        }
+        }
+        i {
+          font-size: 52px;
+        }
+        .owl-prev {
+          left: -100px;
+          background-image: url("../img/nav-left.png")!important;
+        }
+        .owl-next {
+          right: -100px;
+          background-image: url("../img/nav-right.png")!important;
+        }
+      }
+}
+footer{
+    background-color: #efefef;
+    .content{
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+
+        ul{
+            li{
+                list-style: none;
+                margin-bottom: 25px;
+                a,p{
+                    color: #616161;
+                    font-family: Candara;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+                &:first-child { 
+                    a,p{
+                        color: #afaeae!important;
+                        font-family: Candara;
+                        font-size: 21px!important;
+                    }
+                   
+                  }
+                  .btn{
+                      outline: none;
+                      &:focus{
+                          box-shadow: none;
+                      }
+                  }
+                  .dropdown-item{
+                    img{
+                        width: 56px;
+                        height: 56px;
+                    }
+                  }
+                
+            }
+        }
+    }
+    .copyright{
+        margin-top: 50px;
+        padding-bottom:20px;
+        text-align: center;
+        color: #b4b3b3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Avant Garde";
+        font-size: 15px;
+        font-weight: 400;
+    }
+}

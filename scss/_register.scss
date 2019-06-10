@@ -1,0 +1,186 @@
+.left-side{
+    float: left;
+    background-color: $main-color;
+    width: 50%;
+    height: 100vh;
+    .logo{
+        display: flex;
+        justify-content: center;
+        img{
+        margin: 20px auto;
+
+        }
+    }
+    .register{
+        .member-types{
+            margin-top: 90px;
+            margin-left: 50px;
+        .active{
+            // width: 500px;
+            border-radius: 52px;
+            background-color: #984242;
+            
+        }
+        .members{
+            padding: 0px 53px;
+            width: 570px;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            cursor: pointer;
+            .text{
+                color: #efefef;
+                font-family: "Avant Garde";
+                font-size: 36px;
+                font-weight: 400;
+                letter-spacing: 0.61px;
+                position: relative;
+                .info{
+                    position: absolute;
+                    top:    0;
+                    right: -40px;
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+    
+        }
+        .reg{
+            width: 100%;
+            text-align: center;
+            margin-top: 85px;
+        }
+        }
+    }
+}
+.righ-side{
+    float: right;
+    width: 50%;
+    background-color: #efefef;
+    height: 100vh;
+    overflow-y: scroll;
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .tab-content{
+        display: none;
+        padding: 60px 64px;
+    }
+    .current{
+        display: block;
+    }
+   
+    .header{
+        text-align: center;
+        margin-bottom: 50px;
+        h1{
+            color: #101010;
+            font-family: "Avant Garde";
+            font-size: 60px;
+            font-weight: 400;
+            letter-spacing: 5.88px;
+        }
+    }
+    .content{
+       
+        .fb{
+            border-radius: 5px;
+            border: 1px solid #e2e6ea;
+            background-color: #475993;
+            width: 100%;
+            height: 60px;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.45px;
+            line-height: 60px;
+            /* Text style for "Join via F" */
+            font-family: "Segoe UI";
+            font-weight: 400;
+            outline: none;
+            cursor: pointer;
+            i{
+                width: 31px;
+            }
+        }
+        .gmail{
+            border-radius: 5px;
+            border: 1px solid #e2e6ea;
+            background-color: #e84f4b;
+            width: 100%;
+            height: 60px;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.45px;
+            line-height: 60px;
+            /* Text style for "Join via F" */
+            font-family: "Segoe UI";
+            font-weight: 400;
+            outline: none;
+            cursor: pointer;
+            i{
+                width: 31px;
+            }
+           
+        }
+        .reg{
+            text-align: center;
+        }
+        .inputs{
+            width: 100%;
+            .label{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+            label{
+                color: #999999;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                letter-spacing: 0.45px;
+                line-height: 60px;
+                /* Text style for "First Name" */
+                font-family: "Segoe UI";
+                font-weight: 400;
+                margin-bottom: 0;
+            }
+            input{
+                border-radius: 5px;
+                border: 1px solid rgba(149, 152, 154, 0.3);
+                width: 100%;
+                height: 60px;
+            }
+            textarea{
+                border-radius: 5px;
+                border: 1px solid rgba(149, 152, 154, 0.3);
+                height: 60px;
+                width: 100%;
+                height: 164px;
+            }
+            select{
+                border-radius: 5px;
+                border: 1px solid rgba(149, 152, 154, 0.3);
+                width: 100%;
+                height: 60px;
+                background-color: #fff;
+                color: #999999;
+            }
+           
+            .reg-button{
+                background-color: $main-color;
+                color: #ffffff;
+            }
+        }
+    }
+}
+

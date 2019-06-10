@@ -1,0 +1,402 @@
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul {
+  margin-bottom: 0;
+  padding-left: 0; }
+
+.register-btn {
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid #707070;
+  background-color: #ffffff;
+  opacity: 0.9;
+  color: #7b1b2d;
+  font-family: "Avant Garde";
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.61px;
+  padding: 10px 40px; }
+  .register-btn:hover {
+    color: #7b1b2d;
+    opacity: 1;
+    text-decoration: none; }
+
+header {
+  background-color: #7b1b2d; }
+  header .logo img {
+    margin-top: 40px; }
+  header .register .member-types {
+    margin-top: 134px;
+    margin-left: 50px; }
+    header .register .member-types .members {
+      width: 480px;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px; }
+      header .register .member-types .members .text {
+        color: #efefef;
+        font-family: "Avant Garde";
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0.61px;
+        position: relative; }
+        header .register .member-types .members .text .info {
+          position: absolute;
+          top: 0;
+          right: -40px;
+          width: 20px;
+          height: 20px; }
+    header .register .member-types .reg {
+      width: 100%;
+      text-align: center;
+      margin-top: 85px; }
+  header .img-side {
+    margin-top: 40px; }
+    header .img-side img {
+      float: right;
+      width: 680px;
+      margin-right: 60px;
+      margin-bottom: 50px; }
+
+.status-member {
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .status-member .header {
+    margin-bottom: 50px; }
+    .status-member .header h1 {
+      color: #1a1818;
+      font-family: "Avant Garde";
+      font-size: 70px;
+      font-weight: 700;
+      position: relative; }
+      .status-member .header h1::after {
+        content: "";
+        position: absolute;
+        bottom: -14px;
+        left: 0;
+        width: 171px;
+        height: 7px;
+        background-color: #581220; }
+  .status-member .subject p {
+    color: #1a1818;
+    font-family: "Avant Garde";
+    font-size: 30px;
+    font-weight: 400; }
+  .status-member .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .status-member .content .text-side {
+      margin-left: 90px;
+      position: relative; }
+      .status-member .content .text-side p {
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 27px;
+        font-weight: 400; }
+      .status-member .content .text-side .arrow {
+        position: absolute;
+        right: -100px;
+        bottom: 0; }
+        .status-member .content .text-side .arrow img {
+          width: 65px;
+          height: 55px; }
+
+.category {
+  background-color: #7b1b2d;
+  /* fix blank or flashing items on carousel */
+  /* end fix */ }
+  .category .header {
+    text-align: center;
+    padding-top: 20px; }
+    .category .header h1 {
+      color: #efefef;
+      font-family: "Avant Garde";
+      font-size: 60px;
+      font-weight: 700; }
+  .category .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 90%;
+    position: relative; }
+  .category .owl-carousel .item {
+    position: relative;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+    text-align: center; }
+    .category .owl-carousel .item img {
+      width: 196px;
+      height: 150px;
+      margin: 0 auto; }
+    .category .owl-carousel .item p {
+      color: #efefef;
+      font-family: "Avant Garde";
+      font-size: 34px;
+      font-weight: 400; }
+  .category .owl-nav button {
+    margin-top: -52px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd !important;
+    width: 39px;
+    height: 41px;
+    outline: none; }
+    .category .owl-nav button span {
+      display: none; }
+  .category .owl-nav i {
+    font-size: 52px; }
+  .category .owl-nav .owl-prev {
+    left: -100px;
+    background-image: url("../img/nav-left.png") !important; }
+  .category .owl-nav .owl-next {
+    right: -100px;
+    background-image: url("../img/nav-right.png") !important; }
+
+footer {
+  background-color: #efefef; }
+  footer .content {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between; }
+    footer .content ul li {
+      list-style: none;
+      margin-bottom: 25px; }
+      footer .content ul li a, footer .content ul li p {
+        color: #616161;
+        font-family: Candara;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none; }
+      footer .content ul li:first-child a, footer .content ul li:first-child p {
+        color: #afaeae !important;
+        font-family: Candara;
+        font-size: 21px !important; }
+      footer .content ul li .btn {
+        outline: none; }
+        footer .content ul li .btn:focus {
+          box-shadow: none; }
+      footer .content ul li .dropdown-item img {
+        width: 56px;
+        height: 56px; }
+  footer .copyright {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #b4b3b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avant Garde";
+    font-size: 15px;
+    font-weight: 400; }
+
+.left-side {
+  float: left;
+  background-color: #7b1b2d;
+  width: 50%;
+  height: 100vh; }
+  .left-side .logo {
+    display: flex;
+    justify-content: center; }
+    .left-side .logo img {
+      margin: 20px auto; }
+  .left-side .register .member-types {
+    margin-top: 90px;
+    margin-left: 50px; }
+    .left-side .register .member-types .active {
+      border-radius: 52px;
+      background-color: #984242; }
+    .left-side .register .member-types .members {
+      padding: 0px 53px;
+      width: 570px;
+      justify-content: space-around;
+      display: flex;
+      align-items: center;
+      margin-bottom: 25px;
+      cursor: pointer; }
+      .left-side .register .member-types .members .text {
+        color: #efefef;
+        font-family: "Avant Garde";
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0.61px;
+        position: relative; }
+        .left-side .register .member-types .members .text .info {
+          position: absolute;
+          top: 0;
+          right: -40px;
+          width: 20px;
+          height: 20px; }
+    .left-side .register .member-types .reg {
+      width: 100%;
+      text-align: center;
+      margin-top: 85px; }
+
+.righ-side {
+  float: right;
+  width: 50%;
+  background-color: #efefef;
+  height: 100vh;
+  overflow-y: scroll; }
+  .righ-side .flex {
+    display: flex;
+    justify-content: center; }
+  .righ-side .tab-content {
+    display: none;
+    padding: 60px 64px; }
+  .righ-side .current {
+    display: block; }
+  .righ-side .header {
+    text-align: center;
+    margin-bottom: 50px; }
+    .righ-side .header h1 {
+      color: #101010;
+      font-family: "Avant Garde";
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 5.88px; }
+  .righ-side .content .fb {
+    border-radius: 5px;
+    border: 1px solid #e2e6ea;
+    background-color: #475993;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    line-height: 60px;
+    /* Text style for "Join via F" */
+    font-family: "Segoe UI";
+    font-weight: 400;
+    outline: none;
+    cursor: pointer; }
+    .righ-side .content .fb i {
+      width: 31px; }
+  .righ-side .content .gmail {
+    border-radius: 5px;
+    border: 1px solid #e2e6ea;
+    background-color: #e84f4b;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    line-height: 60px;
+    /* Text style for "Join via F" */
+    font-family: "Segoe UI";
+    font-weight: 400;
+    outline: none;
+    cursor: pointer; }
+    .righ-side .content .gmail i {
+      width: 31px; }
+  .righ-side .content .reg {
+    text-align: center; }
+  .righ-side .content .inputs {
+    width: 100%; }
+    .righ-side .content .inputs .label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .righ-side .content .inputs .label img {
+        width: 22px;
+        height: 22px; }
+    .righ-side .content .inputs label {
+      color: #999999;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.45px;
+      line-height: 60px;
+      /* Text style for "First Name" */
+      font-family: "Segoe UI";
+      font-weight: 400;
+      margin-bottom: 0; }
+    .righ-side .content .inputs input {
+      border-radius: 5px;
+      border: 1px solid rgba(149, 152, 154, 0.3);
+      width: 100%;
+      height: 60px; }
+    .righ-side .content .inputs textarea {
+      border-radius: 5px;
+      border: 1px solid rgba(149, 152, 154, 0.3);
+      height: 60px;
+      width: 100%;
+      height: 164px; }
+    .righ-side .content .inputs select {
+      border-radius: 5px;
+      border: 1px solid rgba(149, 152, 154, 0.3);
+      width: 100%;
+      height: 60px;
+      background-color: #fff;
+      color: #999999; }
+    .righ-side .content .inputs .reg-button {
+      background-color: #7b1b2d;
+      color: #ffffff; }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {
+    background: red; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green; } }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .left-side .register .member-types .members .text {
+    font-size: 19px; }
+
+  .left-side .register .member-types .members {
+    width: 300px; } }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .left-side .register .member-types .members .text {
+    font-size: 19px; }
+
+  .left-side .register .member-types .members {
+    width: 300px; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .left-side .logo img {
+    max-width: 400px; }
+
+  .left-side .register .member-types .members {
+    width: 441px; }
+    .left-side .register .member-types .members .icon img {
+      width: 25px; }
+
+  .left-side .register .member-types .members .text {
+    font-size: 22px; }
+
+  .righ-side .content .fb {
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px; }
+
+  .righ-side .content .gmail {
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px; }
+
+  .righ-side .content .inputs input {
+    height: 50px; }
+
+  .righ-side .content .inputs label {
+    font-size: 14px;
+    line-height: 50px; }
+
+  .righ-side .content .inputs .label img {
+    width: 16px;
+    height: 16px; } }
+
+/*# sourceMappingURL=main.css.map */

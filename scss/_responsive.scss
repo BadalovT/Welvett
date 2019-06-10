@@ -1,0 +1,69 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .example {background: green;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .left-side .register .member-types .members .text {
+      font-size: 19px;
+  }
+  .left-side .register .member-types .members {
+    width: 300px;
+}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (max-width: 992px) {
+    .left-side .register .member-types .members .text {
+      font-size: 19px;
+  }
+  .left-side .register .member-types .members {
+    width: 300px;
+}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1200px) {
+    .left-side .logo img {
+      max-width: 400px;
+    }
+    .left-side .register .member-types .members {
+      width: 441px;
+      .icon{
+        img{
+          width: 25px;
+        }
+      }
+    }
+    .left-side .register .member-types .members .text {
+      font-size: 22px;
+    }
+
+    .righ-side .content .fb {
+      height: 50px;
+      line-height: 50px;
+      font-size: 13px;
+    } 
+    .righ-side .content .gmail {
+      height: 50px;
+      line-height: 50px;
+      font-size: 13px;
+    }
+    .righ-side .content .inputs input {
+      height: 50px;
+    }
+    .righ-side .content .inputs label {
+      font-size: 14px;
+      line-height:50px;
+    }
+    .righ-side .content .inputs .label img {
+      width: 16px;
+      height: 16px;
+  }
+  }
